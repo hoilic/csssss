@@ -1,0 +1,13 @@
+@charset "UTF-8";
+body{
+	background-color: linen; 
+	text-align: center;
+	color: blue;
+	margin-right: 30px;
+	margin-left: 30px;
+}
+
+h3{
+	text-align: center;
+	color: #ff0000;	
+}
