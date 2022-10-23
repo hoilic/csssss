@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+div{
+	display : inline-block; /* 인라인 블럭 이면 위드 와 헤이트 를 설정 가능  */
+	width : 50px;
+	height : 50px;
+	border : 1px solid lightgray;
+	text-align : center;
+	color : white;
+	background-color: red;
+}
+
+#down:hover { /* hover 는 마우스 올렸을때 */
+	position: relative; /* relative 는 기준점이 나 자신이다 */
+	left : 20px;
+	top : 20px;
+	background: green;
+}
+
+#up:hover {
+	position: relative; /* relative 는 기준점이 나 자신이다 */
+	right : 20px;
+	bottom : 20px; /* 나를 기준점으로 아래로 부터 20띄고 오른쪽으로 부터 20을 띈다. 방향 잘생각해야 합니다. */
+	background: green;
+
+}
+</style>
+</head>
+<body>
+<h3>상대배치, relative</h3>
+<hr>
+
+<div>T</div>
+<div id="down">h</div>
+<div>a</div>
+<div>n</div>
+<div id="up">k</div>
+<div>s</div>
+
+
+</body>
+</html>
